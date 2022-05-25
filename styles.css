@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Odibee+Sans&family=Oleo+Script+Swash+Caps&family=Radio+Canada&family=Tapestry&family=Water+Brush&family=ZCOOL+KuaiLe&display=swap');
+
+
+.container{
+text-align: center;
+width: 400px;
+border: 10px solid #0c0a3e;;
+margin: auto;
+border-radius: 20px;
+background-color: #0c0a3e;
+font-family: 'Josefin Sans', sans-serif;
+box-shadow: #7b1e7a;
+box-shadow: 10px 10px 10px #522c51
+}
+
+.title{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+line-height: 50px;
+padding-left: 60px;
+background: linear-gradient(to right, #7b1e7a, midnightblue 50%, #7b1e7a 90%);
+color: #b100e8;
+font-size: 2rem;
+font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+
+#musicSources{
+background-color: #b33f62;
+margin-left: 0;
+padding-left: 0;
+background: linear-gradient(to right, #b33f62, midnightblue 50%, #b33f62 90%);
+
+}
+
+#musicSources li{
+    list-style: none;
+    border-bottom: 1px solid #0c0a3e;
+    line-height: 30px;
+   color: #020612;
+   font-family: 'Radio Canada', sans-serif;
+ 
+}
+
+li:hover{
+background-color: #cb60c8;
+cursor: pointer;
+}
+
+li  span{
+    float: left;
+font-family: Webdings;
+font-size: 25px;
+color: #0c0a3e;
+cursor: pointer;
+}
+
+
+#bottom{
+height: 50px;
+background: linear-gradient(to right, #7b1e7a, midnightblue 50%, #7b1e7a 90%);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+#random{
+    float: right;
+    font-family: Webdings;
+    font-size: 35px;
+    line-height: 35px;
+    color: #0e0d1e;
+    cursor: pointer;
+    border: 2px solid #322932;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#random:hover{
+    border: 2px solid #b62edf;
+    color: #b100e8;
+}
+
+audio{
+    outline: none;
+   
+}
+
+
+@media (max-width:450px){
+    .container{
+    width: 350px;
+    }
+}
+
+@media (max-width:400px){
+    .container{
+    width: 300px;
+    }
+    #musicSources{
+       font-size: 0.8rem;
+    } 
+}
+
+@media (max-width:345px){
+    .container{
+    width: 250px;
+    }
+
+    audio{
+       width:250px;
+    }
+
+    #musicSources li{
+        font-size:0.6rem;
+    }
+}
+
+
+@media (max-width:300px){
+    .container{
+    width: 200px;
+    }
+
+    audio{
+       width:200px;
+    }
+
+    #musicSources li{
+        font-size:0.7rem;
+    }
+
+.title{
+    padding-left: 10px;
+}
+
+}
+
+@media (max-width:243px){
+    .container{
+    width: 150px;
+    }
+
+    audio{
+       width:150px;
+    }
+
+    #musicSources li{
+        font-size:0.4rem;
+    }
+
+.title{
+    padding-left: 0px;
+    font-size: 1rem;
+}
+
+}
+
+@media (max-width:190px){
+    .container{
+    width: 100px;
+    }
+
+    audio{
+       width:100px;
+    }
+
+    #musicSources li{
+        font-size:0.2rem;
+    }
+
+.title{
+    font-size: 0.8rem;
+}
+
+
+}
