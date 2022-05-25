@@ -27,7 +27,7 @@ playMusic(pn);
 
 function playMusic(a){
     let myAudio= document.createElement("audio");
-    myAudio.setAttribute('src','/sources/'+a+'.mp3');
+    myAudio.setAttribute('src','./sources/'+a+'.mp3');
     myAudio.setAttribute('controls',"controls");
  
     bottom.appendChild(myAudio);
